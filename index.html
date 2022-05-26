@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta profiles-container-images-div</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- STORIES THUMBNAILS-->   
+    <div class="profiles-container">
+        <ul>
+            <li>
+                <div class="profiles-container-images-div">
+                    <img src="images/cupcake.jpg" alt="" class="profiles-container-images" id="modalTrigger">
+                </div>
+                <span class="profiles-container-username">Drake</span>
+            </li>
+            <li>
+                <div class="profiles-container-images-div">
+                    <img src="images/cornellsn.jpg" alt="" 
+                    class="profiles-container-images" id="modalTrigger">
+                </div>
+                <span class="profiles-container-username">Corneldev</span>
+            </li>
+            <li>
+                <div class="profiles-container-images-div">
+                    <img src="images/chadwiick.jpg" alt="" 
+                    class="profiles-container-images" data-toggle="modal" data-target="#user3">
+                </div>
+                <span class="profiles-container-username">Chadwick</span>
+            </li>
+            <li>
+                <div class="profiles-container-images-div">
+                    <img src="images/swift.jpeg" alt="" 
+                    class="profiles-container-images" data-toggle="modal" data-target="#user4">
+                </div>
+                <span class="profiles-container-username">TaylorSwift</span>
+            </li>
+            <li>
+                <div class="profiles-container-images-div">
+                    <img src="images/vector-viper-rapper-naijaloaded.jpg" alt="" 
+                    class="profiles-container-images" data-toggle="modal" data-target="#user5">
+                </div>
+                <span class="profiles-container-username">IamKizzDaniel</span>
+            </li>
+            <li>
+                <div class="profiles-container-images-div">
+                    <img src="images/sandr.jpeg" alt="" 
+                    class="profiles-container-images" data-toggle="modal" data-target="#user6">
+                </div>
+                <span class="profiles-container-username">SandraBullock</span>
+            </li>
+            <li>
+                <div class="profiles-container-images-div">
+                    <img src="images/Gal_Gadot_cropped_lighting_corrected_2b.jpg" alt="" class="profiles-container-images" data-toggle="modal" data-target="#user4">
+                </div>
+                <span class="profiles-container-username">Davido</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- STORY VIEWING MODAL -->
+    <div id="storyModal" class="modal">
+  
+    <!-- modal content (full image container) -->
+    <div class="modal-content">
+      <div class="modal-title-and-close-btn">
+        <h3 class="modal-title">InstaCopy</h3>
+        <span class="close">&times;</span>
+      </div>
+      <div class="active-story-div">
+        <div class="active-story-image-div">
+          <img src="images/sandr.jpeg" alt="user status" class="story-full-image">
+
+          <!--message Box-->
+          <div class="message-box">
+            <input type="text" class="message-box-textarea" placeholder="Reply to [thisUser]"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="29.25" height="28.125" viewBox="0 0 29.25 28.125" class="message-box-svg">
+              <path id="Icon_ionic-ios-heart-empty" data-name="Icon ionic-ios-heart-empty" d="M24.75,3.938h-.07A8,8,0,0,0,18,7.594a8,8,0,0,0-6.68-3.656h-.07a7.949,7.949,0,0,0-7.875,7.945,17.115,17.115,0,0,0,3.361,9.33C10.969,27,18,32.063,18,32.063S25.031,27,29.264,21.213a17.115,17.115,0,0,0,3.361-9.33A7.949,7.949,0,0,0,24.75,3.938Zm2.925,16.116A53.929,53.929,0,0,1,18,29.587a54.01,54.01,0,0,1-9.675-9.541,15.169,15.169,0,0,1-2.981-8.163,5.966,5.966,0,0,1,5.92-5.97h.063a5.9,5.9,0,0,1,2.89.759,6.144,6.144,0,0,1,2.137,2,1.975,1.975,0,0,0,3.3,0,6.205,6.205,0,0,1,2.138-2,5.9,5.9,0,0,1,2.89-.759h.063a5.966,5.966,0,0,1,5.92,5.97A15.361,15.361,0,0,1,27.675,20.053Z" transform="translate(-3.375 -3.938)" fill="#fff"/>
+            </svg>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="33.621" height="33.621" viewBox="0 0 33.621 33.621" class="message-box-svg">
+              <g id="Icon_feather-send" data-name="Icon feather-send" transform="translate(-1.5 -0.879)">
+                <path id="Path_45" data-name="Path 45" d="M33,3,16.5,19.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                <path id="Path_46" data-name="Path 46" d="M33,3,22.5,33l-6-13.5L3,13.5Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              </g>
+            </svg>              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
